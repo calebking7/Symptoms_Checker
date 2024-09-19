@@ -55,6 +55,11 @@ By using a Decision Tree Classifier, it analyzes the symptoms you select and pro
 This can be particularly useful for individuals seeking initial insights into their health concerns. However, this is just a ***small demo***
 how to implement Machine Learning into evaluating the results of healthcare system, which could deliver real valuable information in the future.
 
+### Usage
+1. Select your symptoms from the sidebar.
+2. Click the "Predict" button to receive a potential diagnosis.
+3. Ensure at least one symptom is selected to avoid errors.
+
 ### About the Dataset
 The model is trained on a dataset of various symptoms and their corresponding conditions, allowing it to make informed predictions based on the input provided. 
 You can also find out the dataset in the code repository below.
