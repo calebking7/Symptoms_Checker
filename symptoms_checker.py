@@ -48,17 +48,18 @@ if st.button("Predict"):
 
 st.text("")
 st.markdown("""---""")
+st.markdown("### Usage")
+st.write("""
+1. Select your symptoms from the sidebar.
+2. Click the "Predict" button to receive a potential diagnosis.
+3. Ensure at least one symptom is selected to avoid errors.""")
+st.markdown("""---""")
 st.markdown("### Introduction")
 st.write("""
 This Streamlit application is a basic web-based tool designed to quickly predict minor illnesses based on user-selected symptoms. 
 By using a Decision Tree Classifier, it analyzes the symptoms you select and provides a potential diagnosis. 
 This can be particularly useful for individuals seeking initial insights into their health concerns. However, this is just a ***small demo***
 how to implement Machine Learning into evaluating the results of healthcare system, which could deliver real valuable information in the future.
-
-### Usage
-1. Select your symptoms from the sidebar.
-2. Click the "Predict" button to receive a potential diagnosis.
-3. Ensure at least one symptom is selected to avoid errors.
 
 ### About the Dataset
 The model is trained on a dataset of various symptoms and their corresponding conditions, allowing it to make informed predictions based on the input provided. 
