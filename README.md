@@ -2,7 +2,7 @@
 
 ## Overview
 **Symptom Checker** is a web-based tool developed using Streamlit that allows users to quickly predict minor illnesses based on their selected symptoms. By utilizing a Decision Tree Classifier, this application provides an initial diagnosis, helping users gain insights into potential health concerns.
-Check out the Streamlit App [here](https://symptomschecker.streamlit.app/)
+Check out the Streamlit App [here](https://symptomschecker.streamlit.app/).
 
 ## Features
 - User-friendly interface for selecting symptoms
