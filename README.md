@@ -14,7 +14,7 @@
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/kimnguyen2002/Symptoms_Checker/.git
+   git clone https://github.com/kimnguyen2002/Symptoms_Checker.git
    cd Symptoms_Checker
    ```
 2. Install the required packages:
