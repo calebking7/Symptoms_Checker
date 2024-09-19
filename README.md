@@ -14,10 +14,9 @@
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your_username/symptom-checker.git
-   cd symptom-checker
+   git clone https://github.com/kimnguyen2002/Symptoms_Checker/.git
+   cd Symptoms_Checker
    ```
-**Note:** Replace `your_username` in the clone URL with your actual GitHub username.
 2. Install the required packages:
   ```bash
   pip install -r requirements.txt
