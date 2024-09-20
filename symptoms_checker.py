@@ -10,7 +10,7 @@ df = pd.read_csv('symptoms_dataset.csv')
 print(df.head(5))
 print(df.tail(5))
 print(df.info())
-print(df.isnull())
+print(df.isna().sum())
 print(df.shape)
 
 #Extract only key columns
