@@ -7,7 +7,8 @@ from sklearn.metrics import accuracy_score
 
 # Load the dataset
 df = pd.read_csv('symptoms_dataset.csv')
-print(df.describe)
+print(df)
+print(df.describe())
 print(df.info())
 print(df.isna().sum())
 
