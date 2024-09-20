@@ -7,11 +7,9 @@ from sklearn.metrics import accuracy_score
 
 # Load the dataset
 df = pd.read_csv('symptoms_dataset.csv')
-print(df.head(5))
-print(df.tail(5))
+print(df.describe)
 print(df.info())
 print(df.isna().sum())
-print(df.shape)
 
 #Extract only key columns
 columns=df.keys()
