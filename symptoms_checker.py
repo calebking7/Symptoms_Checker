@@ -5,9 +5,9 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 
 # Load the datasets
-symptoms_df = pd.read_csv('symptoms_dataset.csv')
-drugs_df = pd.read_csv('drugs_side_effects.csv')
-precautions_df = pd.read_csv('disease_precaution.csv')
+symptoms_df = pd.read_csv('dataset/symptoms_dataset.csv')
+drugs_df = pd.read_csv('dataset/drugs_side_effects.csv')
+precautions_df = pd.read_csv('dataset/disease_precaution.csv')
 
 # Preprocess and map diseases
 symptoms_df['TYPE'] = symptoms_df['TYPE'].replace({
