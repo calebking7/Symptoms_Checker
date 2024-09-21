@@ -1,4 +1,4 @@
-# Symptom Checker
+# Symptom Checker with Drug Info
 
 ## Overview
 **Symptom Checker** is a basic web-based tool built with Streamlit that enables users to quickly predict minor illnesses based on their selected symptoms. The application leverages a **Decision Tree Classifier** to provide an initial diagnosis, allowing users to gain insights into potential health issues. This tool is a `demo` for a quick self-check.
