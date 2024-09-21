@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 # Load the datasets
 symptoms_df = pd.read_csv('symptoms_dataset.csv')
 drugs_df = pd.read_csv('drugs_side_effects.csv')
+precautions_df = pd.read_csv('disease_precaution.csv')
 
 # Preprocess and map diseases
 symptoms_df['TYPE'] = symptoms_df['TYPE'].replace({
@@ -49,7 +50,20 @@ user_input = np.array(user_input).reshape(1, -1)
 # Predict the condition
 if user_input.any():  # Proceed only if at least one symptom is selected
     prediction = model.predict(user_input)[0]
-    st.markdown(f"## Predicted Condition: **{prediction}**")
+    st.markdown(f"## Predicted Condition: **:red[{prediction}]**")
+
+    # Find and display precaution information
+    st.markdown("### Precaution Information:")
+    precaution_info = precautions_df[precautions_df['Disease'].str.contains(prediction, case=False, na=False)]
+    
+    if not precaution_info.empty:
+        st.markdown("#### Precautions:")
+        for i in range(1, 5):  # Assuming there are four precaution columns
+            precaution_column = f'Precaution_{i}'
+            if precaution_column in precaution_info.columns:
+                st.write(f"- {precaution_info.iloc[0][precaution_column]}")
+    else:
+        st.markdown("No precaution information available for this condition.")
 
     # Find and display drug information
     drug_info = drugs_df[drugs_df['medical_condition'].str.contains(prediction, case=False, na=False)]
