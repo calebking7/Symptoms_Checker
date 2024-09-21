@@ -1,14 +1,16 @@
 # Symptom Checker
 
 ## Overview
-**Symptom Checker** is a web-based tool developed using Streamlit that allows users to quickly predict minor illnesses based on their selected symptoms. By utilizing a Decision Tree Classifier, this application provides an initial diagnosis, helping users gain insights into potential health concerns.
-Check out the Streamlit App [here](https://symptomschecker.streamlit.app/).
+**Symptom Checker** is a basic web-based tool built with Streamlit that enables users to quickly predict minor illnesses based on their selected symptoms. The application leverages a **Decision Tree Classifier** to provide an initial diagnosis, allowing users to gain insights into potential health issues. This tool is a `demo` for a quick self-check.
+
+Check out the live Streamlit App [here](https://symptomschecker.streamlit.app/).
 
 ## Features
-- User-friendly interface for selecting symptoms
-- Predicts possible conditions based on input
-- Responsive design for accessibility on various devices
-- Error handling for unselected symptoms
+- **User-friendly Interface:** Easily select symptoms from a list to get a prediction.
+- **Accurate Condition Prediction:** Utilizes a trained Decision Tree Classifier model.
+- **Drug Information:** Displays related drug options for the predicted condition, sourced from a drug side effects dataset.
+- **Responsive Design:** Accessible from any device, whether on mobile or desktop.
+- **Error Handling:** Ensures users select symptoms before making a prediction.
 
 ## Getting Started
 
@@ -22,7 +24,8 @@ Check out the Streamlit App [here](https://symptomschecker.streamlit.app/).
   ```bash
   pip install -r requirements.txt
   ```
-3. Download the `symptoms_dataset.csv` and place it in the project directory.
+3. Download the `symptoms_dataset.csv` and `drugs_side_effects.csv` files.
+Place these files in the project directory.
 
 ### Running the App
 Start the Streamlit application by running:
