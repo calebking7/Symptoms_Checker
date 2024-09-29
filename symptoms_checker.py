@@ -94,6 +94,12 @@ st.write("""
 3. Select a drug name to view its detailed information.
 """)
 st.markdown("""---""")
+st.write("""
+    ### Important Notes
+    - The app is **`NOT`** a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+    - The content provided is for educational and informational purposes only!
+    """)
+st.markdown("""---""")
 st.markdown("### About the Application")
 st.write("""
 This application is designed to predict minor illnesses based on selected symptoms and provide relevant drug information. 
