@@ -5,6 +5,10 @@
 
 Check out the live Streamlit App [here](https://symptomschecker.streamlit.app/).
 
+Image from the web:
+
+<img src="https://lh3.googleusercontent.com/pw/AP1GczM16e_4IArohsV0KL6vUvDFab-rbaF6mCduFryDIm9ujVMW2elgKkOVEcWxHZsa5CBROokY-Jr5gRFdLHsMpJmmO9LdGo2CCPrAPivCtRw46oybP0Kl=w2400" alt="alt text" width="800" />
+
 ## Features
 - **User-friendly Interface:** Easily select symptoms from a list to get a prediction.
 - **Accurate Condition Prediction:** Utilizes a trained Decision Tree Classifier model.
@@ -32,4 +36,12 @@ Start the Streamlit application by running:
   ```bash
   streamlit run symptoms_checker.py
   ```
+
+## Disclaimer
+This project is intended solely for **educational and research purposes**. It is **NOT a substitute for professional medical advice, diagnosis, or treatment**. Results produced by the model should not be used for clinical decision-making or as a definitive diagnostic tool. Always consult a qualified healthcare professional for medical concerns.
+
+## License
+
+This project is licensed under the MIT License.
+
 Feel free to adjust the structure to fit your actual project layout!
