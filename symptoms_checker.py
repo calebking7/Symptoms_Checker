@@ -105,11 +105,7 @@ st.write("""
 This application is designed to predict minor illnesses based on selected symptoms and provide relevant drug information. 
 The model is trained on a dataset of symptoms and conditions and cross-referenced with drug data for comprehensive insights.
 
-### Portfolio
-For more projects and insights, please visit my [portfolio](https://kimnguyen2002.github.io/Portfolio/).
 
-### Code Repository
-You can find the complete code for this application in my GitHub repository [here](https://github.com/kimnguyen2002/Symptoms_Checker).
 """)
 
 # Add some style
