@@ -31,7 +31,7 @@ model.fit(X_train, y_train)
 # Streamlit app
 st.set_page_config(page_title="Symptom Checker", page_icon="🩺")
 
-st.title("🩺 Symptom Checker with Drug Info")
+st.title("🩺 Illness Diagnosis For Divine Favour Hospital, Iyana Church Ibadan")
 st.markdown("### Check your symptoms and get a diagnosis with drug info!")
 
 # Add a sidebar
